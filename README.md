@@ -25,8 +25,8 @@ Pages publishes `modpack/`, so `modpack/neoforge-prod/pack.toml` is served at
 
 ## Environments
 
-`neoforge-dev` and `neoforge-prod` are the live packs. `dev` and `prod` are the
-older Fabric line, kept because their URLs are still referenced.
+`neoforge-dev` and `neoforge-prod` are the two packs. The older Fabric line,
+`dev` and `prod`, is gone — nothing points at those URLs any more.
 
 Promotion copies dev to prod; it never changes a URL. Prod picks the new pack up
 on its next container start, which — since autoshutdown stops the server when it
