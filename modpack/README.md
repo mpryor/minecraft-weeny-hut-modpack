@@ -199,10 +199,10 @@ autoshutdown stops the server when it empties, is the next `/mcstart`.
 
 ## Applying a published pack to a server
 
-Mod changes don't alter the ECS task definition, so no CloudFormation deploy is
-needed. Push to `master`; CI publishes to GitHub Pages. Then either let the
+Mod changes don't alter the ECS task definition, so no Terraform apply is
+needed. Push to `master`; CI publishes to pack.weenyhut.com. Then either let the
 server pick it up on its next cold start (autoshutdown idles it out), or force
-it now:
+it now, from the Terraform repo:
 
 ```bash
 scripts/redeploy <stack-name>

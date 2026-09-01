@@ -67,7 +67,8 @@ public class GenSdlinkConfig {
     }
 
     /**
-     * scripts/autoshutdown polls `rcon-cli list` once a minute to decide whether the
+     * The autoshutdown script (minecraft-weeny-hut-terraform,
+     * modules/platform/autoshutdown) polls `rcon-cli list` once a minute to decide whether the
      * server is idle, and chat.broadcastCommands relays every command that is not on this
      * list. Without the entry that poll posts "executed command: list" to Discord forever.
      *
