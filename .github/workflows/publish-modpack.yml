@@ -9,12 +9,11 @@ on:
   workflow_dispatch:
 
 env:
-  # Every pack this repo publishes. dev and prod are the Fabric line;
-  # neoforge-dev and neoforge-prod are the NeoForge line, and the -prod half of
-  # it only moves when a promotion is merged (scripts/promote-modpack.sh).
-  PACKS: dev prod neoforge-dev neoforge-prod
+  # Every pack this repo publishes. The -prod half only moves when a promotion
+  # is merged (scripts/promote-modpack.sh).
+  PACKS: neoforge-dev neoforge-prod
   # The subset that carries client-only content, and so gets a generic pack
-  # built for it. The Fabric packs predate that mechanism.
+  # built for it. Currently every pack, but the two lists mean different things.
   EXTRAS_PACKS: neoforge-dev neoforge-prod
 
 permissions:
