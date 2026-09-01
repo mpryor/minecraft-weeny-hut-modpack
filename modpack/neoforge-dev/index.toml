@@ -41,6 +41,11 @@ hash = "8a857077b98b950607b66b0c4fec557f214190dd6657d5fc49cc3b8540126b5b"
 metafile = true
 
 [[files]]
+file = "mods/artifacts.pw.toml"
+hash = "1f6413d295562af7b54f4c0af57d5f16bddc8a9fd77da1c684ff2a6f2e21274c"
+metafile = true
+
+[[files]]
 file = "mods/ash-api.pw.toml"
 hash = "9369292bea18bb65ba56285a1da5929527b76deb11347ad062b9d82ac1a3b7e0"
 metafile = true
@@ -286,8 +291,18 @@ hash = "21388a8519fbba93d4663a40bb163932855213ec47f41af18c1d3a4a1e2ada93"
 metafile = true
 
 [[files]]
+file = "mods/relics-mod.pw.toml"
+hash = "5d2ebe2ac7d9436d1c5df0fbb2a1b975196d41a3090065b3c569aaac4fc11430"
+metafile = true
+
+[[files]]
 file = "mods/sdlink.pw.toml"
 hash = "51a0eea1834c166d9bed01170f686741863b6e16a49b71d219b69ecbc6206807"
+metafile = true
+
+[[files]]
+file = "mods/shatterbyte-lib.pw.toml"
+hash = "3f552bbdc42f07fd7d5695ced1d27d774af63cff5460be45817939e5f8e4f9de"
 metafile = true
 
 [[files]]
